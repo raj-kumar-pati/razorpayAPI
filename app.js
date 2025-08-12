@@ -19,8 +19,10 @@ app.use(express.static(path.join(__dirname)));
 const razorpay = new Razorpay({
   // key_id: 'rzp_test_Y2wy8t1wD1AFaA',
   // key_secret: 'zSqRMpIa2ljBBpkieFYGmfLa',
-  key_id : process.env.key_id ,
-  key_secret : process.env.key_secret,
+   key_id: 'rzp_test_UvBP06FNELPfjX',
+  key_secret: '416w6TShNvH7ZeUjjtYrGLHI',
+  // key_id : process.env.key_id ,
+  // key_secret : process.env.key_secret,
 });
 
 // Function to read data from JSON file
